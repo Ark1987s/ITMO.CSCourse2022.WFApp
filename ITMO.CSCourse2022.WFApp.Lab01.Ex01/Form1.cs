@@ -31,10 +31,5 @@ namespace ITMO.CSCourse2022.WFApp.Lab01.Ex01
         {
             this.Opacity = 1;
         }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
     }
 }
