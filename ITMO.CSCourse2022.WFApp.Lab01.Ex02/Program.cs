@@ -16,7 +16,7 @@ namespace ITMO.CSCourse2022.WFApp.Lab01.Ex02
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new nForm());
         }
     }
 }
