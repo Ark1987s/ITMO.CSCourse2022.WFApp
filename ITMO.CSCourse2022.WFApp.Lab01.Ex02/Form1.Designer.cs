@@ -1,4 +1,4 @@
-﻿namespace ITMO.CSCourse2022.WFApp.Lab01.Ex02
+﻿namespace ITMO.CSCourse2022.WFApp.Lab01.Ex02_03
 {
     partial class Form1
     {

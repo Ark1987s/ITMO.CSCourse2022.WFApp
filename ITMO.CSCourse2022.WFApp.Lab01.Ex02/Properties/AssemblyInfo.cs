@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // Общие сведения об этой сборке предоставляются следующим набором
 // набора атрибутов. Измените значения этих атрибутов для изменения сведений,
 // связанных со сборкой.
-[assembly: AssemblyTitle("ITMO.CSCourse2022.WFApp.Lab01.Ex02")]
+[assembly: AssemblyTitle("ITMO.CSCourse2022.WFApp.Lab01.Ex02_03")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("ITMO.CSCourse2022.WFApp.Lab01.Ex02")]
+[assembly: AssemblyProduct("ITMO.CSCourse2022.WFApp.Lab01.Ex02_03")]
 [assembly: AssemblyCopyright("Copyright ©  2022")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

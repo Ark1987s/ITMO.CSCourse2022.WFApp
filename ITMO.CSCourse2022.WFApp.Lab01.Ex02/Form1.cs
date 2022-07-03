@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace ITMO.CSCourse2022.WFApp.Lab01.Ex02
+namespace ITMO.CSCourse2022.WFApp.Lab01.Ex02_03
 {
     public partial class Form1 : Form
     {
