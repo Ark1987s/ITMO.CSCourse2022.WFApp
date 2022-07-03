@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace ITMO.CSCourse2022.WFApp.Lab01.Ex04_MdiApplication
+namespace ITMO.CSCourse2022.WFApp.Lab02.Ex03
 {
     public partial class ChildForm : Form
     {
@@ -29,6 +29,16 @@ namespace ITMO.CSCourse2022.WFApp.Lab01.Ex04_MdiApplication
                 ToggleMenuItem.Checked = true;
                 ChildTextBox.ForeColor = System.Drawing.Color.Blue;
             }
+        }
+
+        private void ChildTextBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void FormatMenuItem_Click(object sender, EventArgs e)
+        {
+
         }
 
         private void ChildForm_Load(object sender, EventArgs e)

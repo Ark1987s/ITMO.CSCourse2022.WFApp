@@ -1,4 +1,4 @@
-﻿namespace ITMO.CSCourse2022.WFApp.Lab01.Ex04_MdiApplication
+﻿namespace ITMO.CSCourse2022.WFApp.Lab02.Ex03
 {
     partial class ChildForm
     {
@@ -43,6 +43,7 @@
             this.ChildTextBox.Size = new System.Drawing.Size(800, 426);
             this.ChildTextBox.TabIndex = 0;
             this.ChildTextBox.Text = "";
+            this.ChildTextBox.TextChanged += new System.EventHandler(this.ChildTextBox_TextChanged);
             // 
             // ChildWindowMenu
             // 
@@ -62,6 +63,7 @@
             this.FormatMenuItem.Name = "FormatMenuItem";
             this.FormatMenuItem.Size = new System.Drawing.Size(57, 20);
             this.FormatMenuItem.Text = "&Format";
+            this.FormatMenuItem.Click += new System.EventHandler(this.FormatMenuItem_Click);
             // 
             // ToggleMenuItem
             // 
