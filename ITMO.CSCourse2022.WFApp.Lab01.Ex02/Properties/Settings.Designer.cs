@@ -8,11 +8,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-<<<<<<< HEAD:ITMO.CSCourse2022.WFApp.Lab01.Ex01/Properties/Settings.Designer.cs
-namespace ITMO.CSCourse2022.WFApp.Lab01.Ex01.Properties
-=======
+
 namespace ITMO.CSCourse2022.WFApp.Lab01.Ex02.Properties
->>>>>>> update:ITMO.CSCourse2022.WFApp.Lab01.Ex02/Properties/Settings.Designer.cs
+
 {
 
 
