@@ -35,5 +35,20 @@ namespace ITMO.CSCourse2022.WFApp.Lab01.Ex04_MdiApplication
         {
 
         }
+
+        private void ChildWindowMenu_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
+        }
+
+        private void FormatMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ChildTextBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

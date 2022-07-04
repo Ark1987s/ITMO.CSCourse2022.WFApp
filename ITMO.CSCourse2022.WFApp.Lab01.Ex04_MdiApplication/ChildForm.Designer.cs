@@ -43,16 +43,19 @@
             this.ChildTextBox.Size = new System.Drawing.Size(800, 426);
             this.ChildTextBox.TabIndex = 0;
             this.ChildTextBox.Text = "";
+            this.ChildTextBox.TextChanged += new System.EventHandler(this.ChildTextBox_TextChanged);
             // 
             // ChildWindowMenu
             // 
             this.ChildWindowMenu.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.FormatMenuItem});
             this.ChildWindowMenu.Location = new System.Drawing.Point(0, 0);
+            this.ChildWindowMenu.MdiWindowListItem = this.FormatMenuItem;
             this.ChildWindowMenu.Name = "ChildWindowMenu";
             this.ChildWindowMenu.Size = new System.Drawing.Size(800, 24);
             this.ChildWindowMenu.TabIndex = 1;
             this.ChildWindowMenu.Text = "menuStrip1";
+            this.ChildWindowMenu.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.ChildWindowMenu_ItemClicked);
             // 
             // FormatMenuItem
             // 
@@ -62,11 +65,12 @@
             this.FormatMenuItem.Name = "FormatMenuItem";
             this.FormatMenuItem.Size = new System.Drawing.Size(57, 20);
             this.FormatMenuItem.Text = "&Format";
+            this.FormatMenuItem.Click += new System.EventHandler(this.FormatMenuItem_Click);
             // 
             // ToggleMenuItem
             // 
             this.ToggleMenuItem.Name = "ToggleMenuItem";
-            this.ToggleMenuItem.Size = new System.Drawing.Size(174, 22);
+            this.ToggleMenuItem.Size = new System.Drawing.Size(180, 22);
             this.ToggleMenuItem.Text = "&Toggle Foreground";
             this.ToggleMenuItem.Click += new System.EventHandler(this.ToggleMenuItem_Click);
             // 

@@ -22,7 +22,7 @@ namespace ITMO.CSCourse2022.WFApp.Lab01.Ex04_MdiApplication
             this.Close();
         }
 
-        private void windowCascadeMenuItemToolStripMenuItem_Click(object sender, EventArgs e)
+        private void WindowCascadeMenuItemToolStripMenuItem_Click(object sender, EventArgs e)
         {
             this.LayoutMdi(System.Windows.Forms.MdiLayout.TileHorizontal);
         }

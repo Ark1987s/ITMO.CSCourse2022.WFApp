@@ -56,6 +56,7 @@
             this.FileMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.NewMenuItem,
             this.ExitMenuItem});
+            this.FileMenuItem.MergeIndex = 0;
             this.FileMenuItem.Name = "FileMenuItem";
             this.FileMenuItem.Size = new System.Drawing.Size(37, 20);
             this.FileMenuItem.Text = "&File";
@@ -95,7 +96,7 @@
             this.WindowTileMenuItem.Name = "WindowTileMenuItem";
             this.WindowTileMenuItem.Size = new System.Drawing.Size(118, 22);
             this.WindowTileMenuItem.Text = "&Tile";
-            this.WindowTileMenuItem.Click += new System.EventHandler(this.windowCascadeMenuItemToolStripMenuItem_Click);
+            this.WindowTileMenuItem.Click += new System.EventHandler(this.WindowCascadeMenuItemToolStripMenuItem_Click);
             // 
             // ParentForm
             // 
@@ -116,14 +117,13 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.MenuStrip MdiMenu;
         private System.Windows.Forms.ToolStripMenuItem FileMenuItem;
         private System.Windows.Forms.ToolStripMenuItem NewMenuItem;
         private System.Windows.Forms.ToolStripMenuItem ExitMenuItem;
         private System.Windows.Forms.ToolStripMenuItem WindowMenuItem;
         private System.Windows.Forms.ToolStripMenuItem WindowCascadeMenuItem;
         private System.Windows.Forms.ToolStripMenuItem WindowTileMenuItem;
+        private System.Windows.Forms.MenuStrip MdiMenu;
     }
 }
 
