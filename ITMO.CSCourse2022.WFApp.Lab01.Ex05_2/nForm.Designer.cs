@@ -33,19 +33,17 @@
             // button1
             // 
             this.button1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.button1.Location = new System.Drawing.Point(857, 466);
-            this.button1.Size = new System.Drawing.Size(109, 42);
+            this.button1.Location = new System.Drawing.Point(925, 535);
+            this.button1.Size = new System.Drawing.Size(69, 23);
             this.button1.Text = "Click!";
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // nForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScroll = true;
             this.BackColor = System.Drawing.Color.Orange;
-            this.ClientSize = new System.Drawing.Size(1487, 808);
+            this.ClientSize = new System.Drawing.Size(1487, 826);
+            this.IsMdiContainer = false;
             this.Name = "nForm";
-            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.nForm_Load);
             this.ResumeLayout(false);
 

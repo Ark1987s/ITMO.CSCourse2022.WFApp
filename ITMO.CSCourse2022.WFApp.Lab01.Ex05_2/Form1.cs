@@ -26,10 +26,10 @@ namespace ITMO.CSCourse2022.WFApp.Lab01.Ex05_2
         {
             Point[] myArray =
              {
-                 new Point(500, 500),
-                 new Point(900, 800),
-                 new Point(1300, 500),
-                 new Point(900, 200)
+                 new Point(560, 550),
+                 new Point(960, 850),
+                 new Point(1360, 550),
+                 new Point(960, 250)
              };
 
             System.Drawing.Drawing2D.GraphicsPath myPath =
