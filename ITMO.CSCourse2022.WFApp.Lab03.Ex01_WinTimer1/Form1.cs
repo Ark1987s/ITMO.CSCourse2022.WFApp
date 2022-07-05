@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace ITMO.CSCourse2022.WFApp.Lab01.Ex01
+namespace ITMO.CSCourse2022.WFApp.Lab03.Ex01_WinTimer1
 {
     public partial class Form1 : Form
     {
@@ -19,22 +19,7 @@ namespace ITMO.CSCourse2022.WFApp.Lab01.Ex01
 
         private void button1_Click(object sender, EventArgs e)
         {
-            this.FormBorderStyle = FormBorderStyle.Sizable;
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-            this.Size = new Size(300, 500);
-        }
-
-        private void button3_Click(object sender, EventArgs e)
-        {
-            this.Opacity = 1;
-        }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
+            this.userControlTimer1.TimeEnabled = false;            
         }
     }
 }
