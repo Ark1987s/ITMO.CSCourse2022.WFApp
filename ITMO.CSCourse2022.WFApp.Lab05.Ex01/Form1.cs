@@ -14,6 +14,12 @@ namespace ITMO.CSCourse2022.WFApp.Lab05.Ex01
 {
     public partial class Form1 : Form
     {
+
+        ExcelObj.Application app = new ExcelObj.Application();
+        ExcelObj.Workbook workbook;
+        ExcelObj.Worksheet NwSheet;
+        ExcelObj.Range ShtRange;
+        DataTable dt = new DataTable();
         public Form1()
         {
             InitializeComponent();
@@ -29,7 +35,7 @@ namespace ITMO.CSCourse2022.WFApp.Lab05.Ex01
                 ShtRange = NwSheet.UsedRange;
                 for (int Cnum = 1; Cnum <= ShtRange.Columns.Count; Cnum++)
                 {
-                    //dt.Columns.Add(new DataColumn((ShtRange.Cells[1, Cnum] as ExcelObj.Range).Value2.ToString()));
+                    dt.Columns.Add(new DataColumn((ShtRange.Cells[1, Cnum] as ExcelObj.Range).Value2.ToString()));
                 }
                 dt.AcceptChanges();
                 string[] columnNames = new String[dt.Columns.Count];
@@ -52,6 +58,7 @@ namespace ITMO.CSCourse2022.WFApp.Lab05.Ex01
                 }
                 dataGridView1.DataSource = dt;
                 app.Quit();
+
             }
             else
             {
@@ -59,22 +66,22 @@ namespace ITMO.CSCourse2022.WFApp.Lab05.Ex01
                 "Загрузка данных...", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
-        ExcelObj.Application app = new ExcelObj.Application();
-        ExcelObj.Workbook workbook;
-        ExcelObj.Worksheet NwSheet;
-        ExcelObj.Range ShtRange;
-        DataTable dt = new DataTable(); 
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-           
-        }
-        private void Form1_Load(object sender, EventArgs e)
+
+
+        private void openFileDialog1_FileOk(object sender, CancelEventArgs e)
         {
 
         }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
         }
+
     }
 }
